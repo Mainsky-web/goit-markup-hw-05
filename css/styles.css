@@ -739,7 +739,22 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
     top: 50%;
     transform: translate(-50%, -50%) ;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 72px 24px 24px 24px;
 }
+
+.modal-title{
+    color: var(--navyblue);
+    text-align: center;
+    font-family: inherit;
+    max-width: 360px;
+    margin: auto;
+    font-size: 16px;
+font-weight: 500;
+line-height: 1.50; 
+letter-spacing: 0.02em;
+margin-bottom: 16px;
+}
+
 
 .modal-btn{
     border: none;
@@ -759,6 +774,31 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
     right: 24px;
     top: 24px;
     cursor: pointer; 
+}
+
+.modal-input {
+    border-radius: 4px;
+border: 1px solid rgba(46, 47, 66, 0.40);
+width: 100%;
+height: 40px;
+margin-bottom: 8px;
+padding: 11px 16px 11px 38px ;
+background-color: transparent;
+outline: transparent;
+}
+
+.modal-input:focus{
+    border-color: var(--iris);
+}
+
+.input-lable {
+    color: var(--lightslate);
+  display: inline-block;  
+font-size: 12px;
+font-weight: 400;
+line-height: 1.16px;
+letter-spacing: 0.04em;
+margin-bottom: 4px;
 }
 
 
