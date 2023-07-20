@@ -593,16 +593,18 @@ margin-bottom: 16px;
     line-height: 1.50;
     letter-spacing: 0.04em;
     min-width: 165px;
-    padding: 8px 64px 8px 24px;
+    padding: 8px 24px 8px 24px;
     border-radius: 4px;
     
     cursor: pointer;
     border: none;
 
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    position: relative;
+    /* position: relative; */
    
 }
 
@@ -630,14 +632,15 @@ margin-bottom: 16px;
     color: var(--white);  
     font-size: 12px;
     font-weight: 400;
-    line-height: 0.2;
+    line-height: 1.5;
     letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 
 }
 
 .footer-form-icon {
     fill: var(--white);
-    position: absolute;
+    /* position: absolute; */
     margin-left: 16px;
 }
 
