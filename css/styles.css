@@ -858,7 +858,7 @@ margin-bottom: 16px;
 .modal-field {
     margin-bottom: 8px;
     position: relative;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .modal-input {
@@ -891,7 +891,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;  
 font-size: 12px;
 font-weight: 400;
-line-height: 1.17px;
+line-height: 1.17;
 letter-spacing: 0.04em;
 margin-bottom: 4px;
 
