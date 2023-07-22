@@ -858,7 +858,7 @@ margin-bottom: 16px;
 .modal-field {
     
     position: relative;
-    margin-bottom: 24px;
+    margin-bottom: 8px;
 }
 
 .modal-input {
@@ -898,6 +898,10 @@ margin-bottom: 4px;
 
 }
 
+.modal-field-textarea {
+    margin-bottom: 16px;
+}
+
 .textarea {
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.40);
@@ -928,7 +932,7 @@ letter-spacing: 0.04em;
 }
 
 .modal-checkbox {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .modal-icon {
@@ -982,7 +986,7 @@ align-items: center;
 }
 
 .cb-label-span {
-    display: inline-flex;
+   
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -991,7 +995,7 @@ align-items: center;
 }
 
 .cb-label span {
-  display: block;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 16px;
