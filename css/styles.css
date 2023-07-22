@@ -858,7 +858,7 @@ margin-bottom: 16px;
 .modal-field {
     
     position: relative;
-    margin-bottom: 8px;
+    margin-bottom: 24px;
 }
 
 .modal-input {
@@ -1015,6 +1015,10 @@ fill: var(--flower);
 
     border-color: var(--ocean);
    
+    }
+
+    .modal-checkbox {
+        margin-bottom: 16px
     }
 
 
