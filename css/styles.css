@@ -931,9 +931,7 @@ letter-spacing: 0.04em;
 
 }
 
-.modal-checkbox {
-    margin-bottom: 24px;
-}
+
 
 .modal-icon {
     position: absolute;
@@ -1021,7 +1019,7 @@ fill: var(--flower);
     }
 
     .modal-checkbox {
-        margin-bottom: 16px
+        margin-bottom: 24px
     }
 
 
