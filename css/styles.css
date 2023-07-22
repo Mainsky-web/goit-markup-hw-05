@@ -856,9 +856,9 @@ margin-bottom: 16px;
 }
 
 .modal-field {
-    margin-bottom: 8px;
+    
     position: relative;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .modal-input {
@@ -871,7 +871,7 @@ padding:0px 16px 0px 38px ;
 background-color: transparent;
 outline: transparent;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-margin-bottom: 16px
+/* margin-bottom: 16px */
 }
 
 .modal-input:focus{
@@ -982,7 +982,7 @@ align-items: center;
 }
 
 .cb-label-span {
-    display: inline-flex;
+    /* display: inline-flex; */
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -991,7 +991,8 @@ align-items: center;
 }
 
 .cb-label span {
-    display: flex;
+    display: inline-flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     width: 16px;
