@@ -45,7 +45,7 @@
 
  <!-- Mob Menu -->
     
-      <div class="menu-container js-menu-container" id="mobile-menu">
+      <div class="menu-container js-menu-container " id="mobile-menu">
   
         <button type="button" class="menu-toggle js-close-menu">
            
@@ -136,36 +136,8 @@
 
 
 
+
       
-      <picture>
-        <source
-          srcset="
-            ./images/chocolate.jpeg    1x,
-            ./images/chocolate-2x.jpeg 2x
-          "
-          media="(min-width: 1166px)"
-        />
-        <source
-          srcset="
-            ./images/chocolate-tab.jpeg    1x,
-            ./images/chocolate-tab-2x.jpeg 2x
-          "
-          media="(min-width: 768px)"
-        />
-        <source
-          srcset="
-            ./images/chocolate-mob.jpeg    1x,
-            ./images/chocolate-mob-2x.jpeg 2x
-          "
-          media="(min-width: 320px)"
-        />
-        <img
-          src="./images/chocolate-tab.jpeg"
-          alt="liquid chocolate"
-          class="made-image"
-          width="614"
-        />
-      </picture>
       <!-- Hero -->
       <section class="hero">
         <div class="container hero-flex">
@@ -256,8 +228,32 @@
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list list">
           <li class="team-item">
-            <img src="./images/img11.jpg" alt="Product Designer" width="264" />
+
+            <picture class="team-picture">
+              <source
+              srcset="./images/team1-mob-min.jpg,
+              ./images/team1-mobx2-min.jpg"
+              
+                media="(min-width: 1166px)"
+              />
+              <source
+              srcset="./images/team1-mob-min.jpg,
+              ./images/team1-mobx2-min.jpg"
+              
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="./images/team1-mob-min.jpg,
+                ./images/team1-mobx2-min.jpg"
+                
+                media="(min-width: 320px)"
+              />
+              <img src="./images/img11.jpg" alt="Product Designer" width="264" />
+            
+            </picture>
+            
             <div class="team-content">
+              
               <h3 class="team-subtitle">Mark Guerrero</h3>
               <p class="team-text">Product Designer</p>
               <ul class="team-social-list list">
@@ -319,11 +315,35 @@
             </div>
           </li>
           <li class="team-item">
-            <img
+         
+
+            <picture>
+              <source
+              srcset="./images/team2-mob-min.jpg,
+                ./images/team2-mobx2-min.jpg"
+              
+                media="(min-width: 1166px)"
+              />
+              <source
+              srcset="./images/team2-mob-min.jpg,
+              ./images/team2-mobx2-min.jpg"
+              
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="./images/team2-mob-min.jpg,
+                ./images/team2-mobx2-min.jpg"
+                
+                
+                media="(min-width: 320px)"
+              />
+              <img
               src="./images/img22.jpg"
               alt="Frontend Developer"
               width="264"
             />
+
+            </picture>
             <div class="team-content">
               <h3 class="team-subtitle">Tom Ford</h3>
               <p class="team-text">Frontend Developer</p>
@@ -387,7 +407,32 @@
             </div>
           </li>
           <li class="team-item">
-            <img src="./images/img33.jpg" alt="Marketing" width="264" />
+
+
+            <picture>
+              <source
+              srcset="./images/team3-mob-min.jpg,
+                ./images/team3-mobx2-min.jpg"
+              
+                media="(min-width: 1166px)"
+              />
+              <source
+              srcset="./images/team3-mob-min.jpg,
+                ./images/team3-mobx2-min.jpg"
+              
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="./images/team3-mob-min.jpg,
+                ./images/team3-mobx2-min.jpg"
+            
+              
+                media="(min-width: 320px)"
+              />
+              <img src="./images/img33.jpg" alt="Marketing" width="264" />
+            </picture>
+
+           
             <div class="team-content">
               <h3 class="team-subtitle">Camila Garcia</h3>
               <p class="team-text">Marketing</p>
@@ -451,7 +496,31 @@
             </div>
           </li>
           <li class="team-item">
-            <img src="./images/img44.jpg" alt="UI Designer" width="264" />
+
+
+
+            <picture>
+              <source
+              srcset="./images/team4-mob-min.jpg,
+              ./images/team4-mobx2-min.jpg"
+              
+                media="(min-width: 1166px)"
+              />
+              <source
+              srcset="./images/team4-mob-min.jpg,
+              ./images/team4-mobx2-min.jpg"
+              
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="./images/team4-mob-min.jpg,
+                ./images/team4-mobx2-min.jpg"
+                
+                media="(min-width: 320px)"
+              />
+              <img src="./images/img44.jpg" alt="UI Designer" width="264" />
+            </picture>
+            
             <div class="team-content">
               <h3 class="team-subtitle">Daniel Wilson</h3>
               <p class="team-text">UI Designer</p>
@@ -569,86 +638,89 @@
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="container footer-container">
-     <div class="footer-content">
-        <a class="footer-logo link" href="./index.html"
-            >Web<span class="footer-logo-acc">Studio</span></a
-          >
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with digital
-          marketing & growth solutions.
-        </p>
-     </div>
-    
-   
-    <div class="footer-title">
-      <p class="footer-title">Social media</p>
-      <ul class="footer-social-list list">
-        <li class="team-social-item">
-          <a
-          class="footer-social-link"
-          href=""
-          aria-label="instagram"
-          target="_blank"
-          rel="nooperer noreferrer">
       
-        
-          <svg class="footer-social-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-instagram-1"></use>
-          </svg>
-       
-        </a>
-        </li>
-        <li class="team-social-item">
-          <a
-          class="footer-social-link"
-          href=""
-          aria-label="instagram"
-          target="_blank"
-          rel="nooperer noreferrer">
+        <div class="container footer-container">
+          <div class="footer-tablet">
+       <div class="footer-content">
+          <a class="footer-logo link" href="./index.html"
+              >Web<span class="footer-logo-acc">Studio</span></a
+            >
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with digital
+            marketing & growth solutions.
+          </p>
+       </div>
       
-        
-          <svg class="footer-social-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-twitter-2"></use>
-          </svg>
-      
-        </a>
-      
-      </li>
-        <li class="team-social-item">
-          <a
-          class="footer-social-link"
-          href=""
-          aria-label="instagram"
-          target="_blank"
-          rel="nooperer noreferrer">
-      
-    
-          <svg class="footer-social-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-facebook-1"></use>
-          </svg>
-      
-        </a>
-          
-        </li>
-        <li class="team-social-item">
-          <a
-          class="footer-social-link"
-          href=""
-          aria-label="instagram"
-          target="_blank"
-          rel="nooperer noreferrer">
      
-          <svg class="footer-social-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-linkedin-2"></use>
-          </svg>
-      
-        </a>
+      <div class="footer-title-social">
+        <p class="footer-title">Social media</p>
+        <ul class="footer-social-list list">
+          <li class="team-social-item">
+            <a
+            class="footer-social-link"
+            href=""
+            aria-label="instagram"
+            target="_blank"
+            rel="nooperer noreferrer">
+        
           
+            <svg class="footer-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram-1"></use>
+            </svg>
+         
+          </a>
+          </li>
+          <li class="team-social-item">
+            <a
+            class="footer-social-link"
+            href=""
+            aria-label="instagram"
+            target="_blank"
+            rel="nooperer noreferrer">
+        
+          
+            <svg class="footer-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter-2"></use>
+            </svg>
+        
+          </a>
+        
         </li>
-      </ul>
+          <li class="team-social-item">
+            <a
+            class="footer-social-link"
+            href=""
+            aria-label="instagram"
+            target="_blank"
+            rel="nooperer noreferrer">
+        
       
-            </div>
+            <svg class="footer-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook-1"></use>
+            </svg>
+        
+          </a>
+            
+          </li>
+          <li class="team-social-item">
+            <a
+            class="footer-social-link"
+            href=""
+            aria-label="instagram"
+            target="_blank"
+            rel="nooperer noreferrer">
+       
+            <svg class="footer-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin-2"></use>
+            </svg>
+        
+          </a>
+            
+          </li>
+        </ul>
+        
+              </div>
+      </div>
             <div class="footer-form">
               <p class="footer-form-label">Subscribe</p>
               
@@ -752,6 +824,8 @@
       </form>
       </div>
     </div>
+
+    
 
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
