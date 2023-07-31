@@ -45,7 +45,7 @@
     
     
     .header-list-link{
-        color: var(--ocean);
+        color: var(--navyblue);
         font-size: 16px;
         font-weight: 500;
         line-height: 1.50;
@@ -859,12 +859,6 @@ fill: var(--flower);
         background-color: var(--ocean);
     }
 
-    .current.header-list-link {
-        position: relative;
-        color: var(--ocean);
-    }
-    
-    
     .header-list-link{
         color: var(--navyblue);
         font-size: 16px;
@@ -888,6 +882,14 @@ fill: var(--flower);
         font-style: normal;
         margin-left: auto;
     }
+
+    .current.header-list-link {
+        position: relative;
+        color: var(--ocean);
+    }
+    
+    
+    
     
     .header-address-list {
         
