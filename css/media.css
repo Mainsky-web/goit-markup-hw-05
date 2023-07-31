@@ -59,6 +59,11 @@
     
     color: var(--ocean)
     }
+
+    .current.header-list-link {
+        position: relative;
+        color: var(--ocean);
+    }
     
     .header-address {
         color: var(--slate, #434455);
