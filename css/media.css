@@ -854,7 +854,7 @@ fill: var(--flower);
 
     .current.header-list-link {
         position: relative;
-        color: var(--ocean)
+        color: var(--ocean);
     }
     
     
