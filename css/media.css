@@ -823,8 +823,8 @@ fill: var(--flower);
      gap: 40px;
     }
 
-    .header-list-link{
-        color: var(--navyblue)
+    .header-list-link {
+        color: var(--navyblue);
         font-size: 16px;
         font-weight: 500;
         line-height: 1.50;
@@ -866,7 +866,7 @@ fill: var(--flower);
     
     
     .header-list-link{
-        color: var(--navyblue)
+        color: var(--navyblue);
         font-size: 16px;
         font-weight: 500;
         line-height: 1.50;
